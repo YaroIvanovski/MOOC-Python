@@ -1,4 +1,3 @@
 
-# Python Programming MOOC 2021
-
-https://programming-21.mooc.fi/
+# Python Programming MOOC 2022
+https://programming-22.mooc.fi/
