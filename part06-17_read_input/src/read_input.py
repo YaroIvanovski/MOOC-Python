@@ -1,18 +1,18 @@
-# Write your solution here
-def read_input(input_info: str, min: int, max: int):
+def read_input(inpt: str, min: int, max: int):
     while True:
         try:
-            num = int(input(input_info))
+            num = int(input(inpt))
             if num >= min and num <= max:
                 return num
         except ValueError:
             pass
-        
-        print("You must type in an integer between 5 and 10")
+        print(f"You must type in an integer between {min} and {max}")
+
 
 if __name__ == "__main__":
-    num = read_input("Please type in a number: ")
-    print("You typed in: ", num)
+    num = read_input("Please type in a number: ", 5, 10)
+    print("You typed in:", num)
+
 
 """Suggested solution
 def read_input(prompt: str, lower_limit: int, upper_limit: int):
